@@ -11,7 +11,13 @@ box-sizing: border-box;
 }
 
 body{
+width: 100%;
+
 font-family: "Poppins", sans-serif;
 font-weight: 400;
+}
+
+html,#root {
+    width: 100%;
 }
 `;
