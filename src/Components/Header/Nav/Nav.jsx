@@ -1,19 +1,18 @@
-import { NavLink } from "react-router-dom";
-
+import { NavStyled, Ul, NavLinkStyled } from "./NavStyle";
 export default function Nav() {
-    return (
-        <nav>
-            <ul>
-                <li>
-                    <NavLink to="/">Home</NavLink>
-                </li>
-                <li>
-                    <NavLink to="/novidades">Novidades</NavLink>
-                </li>
-                <li>
-                    <NavLink to="/sobre">Sobre</NavLink>
-                </li>
-            </ul>
-        </nav>
-    )
+  return (
+    <NavStyled>
+      <Ul>
+        <li>
+          <NavLinkStyled to="/">Home</NavLinkStyled>
+        </li>
+        <li>
+          <NavLinkStyled to="/novidades">Novidades</NavLinkStyled>
+        </li>
+        <li>
+          <NavLinkStyled to="/sobre">Sobre</NavLinkStyled>
+        </li>
+      </Ul>
+    </NavStyled>
+  );
 }
