@@ -2,22 +2,31 @@ import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400&display=swap');
-
 *{
 margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
 
-body{
-width: 100%;
-
-font-family: "Poppins", sans-serif;
-font-weight: 400;
-}
-
-html,#root {
+html{
     width: 100%;
+    height: 100%;
 }
-`;
+
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    width: 100%;
+    height: 100%;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}    
+`
+;
+
