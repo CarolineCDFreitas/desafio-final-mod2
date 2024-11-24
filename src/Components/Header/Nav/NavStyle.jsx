@@ -3,7 +3,6 @@ import { NavLink } from "react-router-dom";
 import { FlexboxSpaceBetween } from "../../../utils";
 
 export const NavStyled = styled.nav`
-  border: 2px solid green;
   margin: 0 0.5em;
   padding: 0.4em;
 `;
