@@ -29,7 +29,7 @@ export default function MainTemplate(props) {
 MainTemplate.propTypes = {
   title: PropTypes.string,
   intro: PropTypes.string,
-  mainText: PropTypes.string,
+  mainText: PropTypes.node,
   source: PropTypes.oneOfType([PropTypes.string, PropTypes.elementType]),
   altText: PropTypes.string,
   $isgreen: PropTypes.bool,
