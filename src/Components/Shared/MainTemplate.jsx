@@ -35,13 +35,13 @@ export default function MainTemplate(props) {
           <h1>{title}</h1>
           <h2>{intro}</h2>
           {isResponsive && (
-            <Img $isResponsive={isResponsive} src={source} alt={altText} />
+            <Img $isResponsive={isResponsive} $isGreen={$isGreen} src={source} alt={altText} />
           )}
           <p>{mainText}</p>
           <Button />
         </ContentSection>
         {!isResponsive && (
-          <Img $isResponsive={isResponsive} src={source} alt={altText} />
+          <Img $isResponsive={isResponsive} $isGreen={$isGreen} src={source} alt={altText} />
         )}
       </ContainerSection>
     </Main>
