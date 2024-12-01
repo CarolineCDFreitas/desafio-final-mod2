@@ -3,7 +3,7 @@ import { FlexboxSpaceBetween } from "../../utils";
 
 export const HeaderStyled = styled.header`
   ${FlexboxSpaceBetween};
-  width: calc(100% - 8rem);
+  width: calc(100% - 12rem);
   gap: 2rem;
   margin: 0 auto;
   margin-top: 0.5em;
@@ -11,6 +11,7 @@ export const HeaderStyled = styled.header`
   img {
     width: 7%;
   }
+
   @media (max-width: 480px) {
     width: 100%;
     gap: 1rem;
@@ -19,5 +20,9 @@ export const HeaderStyled = styled.header`
     img {
       width: 15%;
     }
+  }
+
+  @media (min-width: 481px) and (max-width: 1280px) {
+    width: calc(100% - 6rem);
   }
 `;
