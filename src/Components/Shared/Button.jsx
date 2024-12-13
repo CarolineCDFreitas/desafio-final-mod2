@@ -22,7 +22,12 @@ export const ButtonStyled = styled.button`
     transform: translateY(4px);
   }
 
-  @media (min-width: 1024px) {
+  &:focus-visible{
+    outline: 2px solid #037143;
+    outline-offset: 0.25em;
+  }
+
+  @media (min-width: 768px) {
     &:hover {
       background-color: #049e5b;
     }
