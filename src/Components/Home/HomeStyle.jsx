@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { FlexboxColumn } from "../../utils";
+import { FlexboxColumn } from "../../Utils";
 
 export const MainContainer = styled.main`
   display: flex;

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { FlexboxSpaceBetween } from "../../utils";
+import { FlexboxSpaceBetween } from "../../Utils";
 
 export const HeaderStyled = styled.header`
   ${FlexboxSpaceBetween};

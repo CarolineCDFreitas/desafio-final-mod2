@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { FlexboxColumn, FlexboxSpaceAround } from "../../utils";
+import { FlexboxColumn, FlexboxSpaceAround } from "../../Utils";
 
 const fontColor = (props) => (props.$isGreen ? "#fff" : "#1E3932");
 const commonMargin = "0.5em";
