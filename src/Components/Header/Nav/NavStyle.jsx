@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
-import { FlexboxSpaceBetween } from "../../../utils";
+import { FlexboxSpaceBetween } from "../../../Utils";
 
 export const NavStyled = styled.nav`
   margin: 0 0.5em;
