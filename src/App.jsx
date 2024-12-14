@@ -1,4 +1,4 @@
-import GlobalStyle from "./GlobalStyle";
+import { GlobalStyle } from "./GlobalStyle";
 import { BrowserRouter } from "react-router-dom";
 import NavRoutes from "../src/NavRoutes";
 import Header from "./Components/Header/Header";
