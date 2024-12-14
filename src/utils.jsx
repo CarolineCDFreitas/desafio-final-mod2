@@ -10,7 +10,7 @@ export const FlexboxColumn = css`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 `;
 
 export const FlexboxSpaceAround = css`
@@ -19,8 +19,8 @@ export const FlexboxSpaceAround = css`
   align-items: center;
 `;
 
-export const FlexboxSpaceEvenly = css`
+export const FlexboxSpaceBetween = css`
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 `;
