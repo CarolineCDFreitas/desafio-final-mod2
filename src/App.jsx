@@ -6,9 +6,9 @@ import Header from "./Components/Header/Header";
 export default function App() {
   return (
     <BrowserRouter>
-    <GlobalStyle/>
+      <GlobalStyle />
       <Header />
-      <NavRoutes/>
+      <NavRoutes />
     </BrowserRouter>
   );
 }
